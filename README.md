@@ -178,5 +178,5 @@ streaming
 
 ## Author
 
-Om Ghantenavaru<br>
+Om G<br>
 Built as a real-world demonstation of voice interfaces + NLP + APIs
