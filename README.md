@@ -73,13 +73,12 @@ This program runs wake-word detection in the background thread to ensure the GUI
 │   ├── fuzzy_search.py
 │   ├── regex_extractor.py
 │   └── spacy_extractor.py
-├── requirements.txt
-├── api_key.txt
+├── .env.example
 ├── spotify_client_secret.txt
 └── README.md
 ```
 
-## Techonologies Used
+## Technologies Used
 
 - Wake word -> Picovoice Porcupine
 - Speech Recognition -> Google
@@ -92,7 +91,7 @@ This program runs wake-word detection in the background thread to ensure the GUI
 
 - Spotify Premium Account
 - Spotify Developer Account
-- Micophone enabled
+- Microphone enabled
 - A Picovoice access key for wake-word detection
 - A OpenAI API Key
 
@@ -102,7 +101,7 @@ This program runs wake-word detection in the background thread to ensure the GUI
 
 ```
 git clone https://github.com/Sora-developer/Voice_Spot.git
-cd spotify-voice-assistant
+cd Voice_Spot
 
 ```
 
@@ -119,7 +118,7 @@ python -m spacy download en_core_web_sm
 
 3. Create a Spotify App
 
-- Go to https://deverlopers.spotify.com/dashboard
+- Go to https://developers.spotify.com/dashboard
 - Create a new app
 - Set Redirect URL: http://127.0.0.1:8888/callback
 - Copy : Client ID, Client Secret
