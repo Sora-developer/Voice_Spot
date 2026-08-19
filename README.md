@@ -87,7 +87,6 @@ This program runs wake-word detection in the background thread to ensure the GUI
 - GUI -> Tkinter
 - API -> Spotify Web API
 - Auth -> OAuth 2.0
-- Concurrency -> Python threading
 
 ## Prerequisites
 
